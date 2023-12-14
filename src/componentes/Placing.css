@@ -1,0 +1,89 @@
+.PlacingPieces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+.board{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(10, 1fr);
+    width: 500px;
+    height: 500px;
+    
+}
+
+.squars{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+
+.Shipsharbor{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 150px;
+    background-color: grey;
+    margin-top: 50px;
+}
+.Shipsharbor div {
+    border: 2px solid black;
+}
+
+.carrier {
+
+    width: 270px;
+    height: 50px;
+    background-color: red;
+}
+.battleship {
+    width: 215px;
+    height: 50px;
+    background-color: blue;
+}
+.cruiser{
+    width: 160px;
+    height: 50px;
+    background-color: yellow;
+}
+.submarine{
+    width: 160px;
+    height: 50px;
+    background-color: green;
+}
+.destroyer {
+    width: 105px;
+    height: 50px;
+    background-color: purple;
+}
+
+.carrierPlace {
+    background-color: red;
+}
+
+.battlershipPlace {
+    background-color: blue;
+}
+
+.cruiserPlace {
+    background-color: yellow;
+}
+.submarinePlace {
+    background-color: green;
+}
+.destroyerPlace {
+    background-color: purple;
+}
+
+.notAllow {
+   cursor: no-drop;
+   pointer-events: none;
+}
