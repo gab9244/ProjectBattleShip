@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import  './componentes/AiBoard.css'
+
 import './componentes/Home.css'
 import { Home } from './componentes/Home'
 

@@ -65,8 +65,42 @@
     background-color: purple;
 }
 
+
+.NaVertical {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+}
+.NaVertical .carrier{
+     width: 140px;
+     height: 25px;
+}
+.NaVertical .battleship{
+    width: 130px;
+    height: 25px;
+}
+.NaVertical .cruiser{
+    width: 100px;
+    height: 25px;
+}
+.NaVertical .submarine{
+    width: 100px;
+    height: 25px;
+}
+.NaVertical .destroyer{
+    width: 80px;
+    height: 25px;
+}
+
+
+/* A propriedade transform possui uma lista de funções que transformam o elemento de alguma maneira, como rotate()   */
+.vertical {
+    transform: rotate(90deg);
+}
+
+
 .carrierPlace {
-    background-color: red;
+    background-color: grey;
 }
 
 .battlershipPlace {
@@ -86,4 +120,16 @@
 .notAllow {
    cursor: no-drop;
    pointer-events: none;
+}
+.MudandoAngulo{
+ font-size: 25px;
+ width: 50px;
+}
+
+.DisplayOff {
+    display: none;
+}
+
+.StartButton {
+    font-size: 30px;
 }
