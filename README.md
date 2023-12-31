@@ -5,8 +5,10 @@ This project was one of the projects of The Odin Project course, and it was one 
 Purpose
 
 My goal with this project was to put all the knowledge I had on display.
-My plain was to use draggable divs as the ships but i couldn't find a way to make the ships not overlap each other and that was the greatest challenge of this project.
-I'm not gonna lie that was hard and took me sometime but, i find a solution, unfortunately by the time a find this solution i have alright give up of using drag and drop
+My plain was to use draggable divs as the ships but i couldn't find a way to make the ships not overlap each other and that a challenge of this project.
+The greatest challenge was how to make so none of the ships go to other lines. I'm not gonna lie that was hard and took me sometime but, i find a solution, unfortunately by the time i find a solution i've alright give up of using drag and drop and start to use hover.
+
+
 
 
 
